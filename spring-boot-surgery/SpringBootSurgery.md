@@ -27,6 +27,7 @@ Test class: [SpringBootSurgeryApplicationTests](https://github.com/failedpeanut/
 Just chilling in ApplicationRunnerBean
 
 Arguments Passed to spring boot application:[spring.output.ansi.enabled]
+
 Just chilling in CommandLineRunnerBean
 
 --------------------Let's see the beans provided by Spring Boot-------------------- START:
