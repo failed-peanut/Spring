@@ -14,10 +14,11 @@
 6. After startup completes, application starts to run.
 7. The usability of CommandLineRunner and ApplicationRunner are that we can start any scheduler or log any message before application starts to run.
 
-### [The ApplicationContext](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s08.html)
+### Read This :[The ApplicationContext](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s08.html)
 
 ## Writing Test case for service:
 Service class:[SimpleService](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/SimpleService.java)
+
 Test class: [SpringBootSurgeryApplicationTests](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/test/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplicationTests.java)
 
 ## What is the Output?
@@ -76,7 +77,7 @@ springApplicationAdminRegistrar
 springBootSurgeryApplication
 taskExecutorBuilder
 taskSchedulerBuilder
-*******Simple Service for Demo Purpouse!*******
+`*******Simple Service for Demo Purpouse!*******`
 --------------------Let's see the beans provided by Spring Boot-------------------- END:
 Done with printing..... will die!
 
