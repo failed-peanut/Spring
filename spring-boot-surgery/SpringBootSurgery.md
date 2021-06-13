@@ -21,6 +21,13 @@ Service class:[SimpleService](https://github.com/failedpeanut/spring/blob/main/s
 
 Test class: [SpringBootSurgeryApplicationTests](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/test/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplicationTests.java)
 
+What happens when you run the test case as Junit?
+
+one method will Passs and other will Fail.
+
+![Failure_Passs](https://github.com/failedpeanut/spring/blob/main/Ignore_this_folder_images_for_README/Failure_Pass_Testcase.png)
+
+
 ## What is the Output?
 1. when you run [SpringBootSurgeryApplication](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplication.java) as java Application or Spring Boot Application below results are seen:
 
