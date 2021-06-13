@@ -12,7 +12,7 @@
 *well, it does Nothing!*
 1. project Structure:
 
-<img src="https://github.com/failedpeanut/spring/blob/main/Ignore_this_folder_images_for_README/spring-boot1.png"/>
+<img src="https://raw.githubusercontent.com/failedpeanut/spring/main/Ignore_this_folder_images_for_README/spring-boot1.png"/>
 
 
 2. when you run the [Application.java](https://github.com/failedpeanut/spring/blob/main/spring-boot/src/main/java/com/failedpeanut/Application.java) as spring Boot Application or Java application it prints something in console.
@@ -20,5 +20,3 @@
 ### Let's do some surgery [spring-boot-surgery](https://github.com/failedpeanut/spring/tree/main/spring-boot-surgery)
 1. using: [ApplicationRunner](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/ApplicationRunner.html) and [CommandLineRunner](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/CommandLineRunner.html)
 2. what are these shit? [Check this Link](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/SpringBootSurgery.md)
-
-
