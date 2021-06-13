@@ -14,4 +14,7 @@
 
 ![spring starter project](https://github.com/failedpeanut/spring/blob/main/Ignore_this_folder_images_for_README/spring-boot1.png)
 
+2. when you run the [Application.java]() as spring Boot Application or Java application it prints something in console.
+
+
 
