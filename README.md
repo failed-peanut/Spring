@@ -20,3 +20,9 @@
 ### Let's do some surgery [spring-boot-surgery](https://github.com/failedpeanut/spring/tree/main/spring-boot-surgery)
 1. using: [ApplicationRunner](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/ApplicationRunner.html) and [CommandLineRunner](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/CommandLineRunner.html)
 2. what are these shit? [Check this Link](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/SpringBootSurgery.md)
+
+### changing Banner [spring-boot-banner](https://github.com/failedpeanut/spring/tree/main/spring-boot-banner)
+1. To add a custom banner in Spring Boot application, create a banner.txt file and put it into the resources folder.
+2. Create your own by writing a Java code or visit some [site](https://fsymbols.com/generators/carty/) to generate. 
+3. Copy the text and paste in banner.txt
+4. If banner.txt is empty No banner will be seen in console.
