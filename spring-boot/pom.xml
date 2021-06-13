@@ -8,11 +8,11 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.config-client</groupId>
+	<groupId>com.spring.boot.Example</groupId>
 	<artifactId>spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot</name>
-	<description>A config Client Example</description>
+	<description>A spring-boot Example</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
