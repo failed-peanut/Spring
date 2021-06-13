@@ -25,9 +25,12 @@ Test class: [SpringBootSurgeryApplicationTests](https://github.com/failedpeanut/
 1. when you run [SpringBootSurgeryApplication](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplication.java) as java Application or Spring Boot Application below results are seen:
 
 Just chilling in ApplicationRunnerBean
+
 Arguments Passed to spring boot application:[spring.output.ansi.enabled]
 Just chilling in CommandLineRunnerBean
+
 --------------------Let's see the beans provided by Spring Boot-------------------- START:
+
 applicationAvailability
 applicationRunnerBean
 applicationRunnerMethod
@@ -81,6 +84,7 @@ taskSchedulerBuilder
 `*******Simple Service for Demo Purpouse!*******`
 
 --------------------Let's see the beans provided by Spring Boot-------------------- END:
+
 Done with printing..... will die!
 
 
