@@ -1,4 +1,4 @@
-package com.failedpeanut.configclient;
+package com.failedpeanut;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
