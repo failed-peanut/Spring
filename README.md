@@ -11,6 +11,6 @@
 ### My first Spring Boot Application
 *well, it does Nothing!*
 1. project Structure:
-![plot](./directory_1/directory_2/.../directory_n/plot.png)
+![spring starter project](https://github.com/failedpeanut/spring/blob/main/images_for_README/spring-boot1.png)
 
 
