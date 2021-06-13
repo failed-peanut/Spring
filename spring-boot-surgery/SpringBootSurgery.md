@@ -5,23 +5,23 @@
 2. To do so we need to create spring bean using CommandLineRunner or ApplicationRunner interface and spring boot will automatically detect them. 
 3. Both the interfaces have run() method that needs to be overridden in implementing class and make the class as bean by using spring stereotype such as @Component.
 
-##Why?
+## Why?
 1. CommandLineRunner and ApplicationRunner serve the same purpose.
 2. The difference between CommandLineRunner and ApplicationRunner is that the run() method of CommandLineRunner accepts array of String as an argument and run() method of ApplicationRunner accepts spring ApplicationArguments as an argument.
-3. The arguments which we pass to main() method while starting spring boot, can be accessed in the run() method of CommandLineRunner and ApplicationRunner implementation classes/ or as I did in creating a Bean of those and implement their methods [SpringBootSurgeryApplication]()
-4. We can create more than one bean of CommandLineRunner and ApplicationRunner implementing classes.[]() and []()
+3. The arguments which we pass to main() method while starting spring boot, can be accessed in the run() method of CommandLineRunner and ApplicationRunner implementation classes/ or as I did in creating a Bean of those and implement their methods [SpringBootSurgeryApplication](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplication.java)
+4. We can create more than one bean of CommandLineRunner and ApplicationRunner implementing classes.[CommandLineRunnerBean](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/CommandLineRunnerBean.java) and [ApplicationRunnerBean](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/ApplicationRunnerBean.java)
 5. The run() method of CommandLineRunner and ApplicationRunner are executed just before SpringApplication finishes its startup.
 6. After startup completes, application starts to run.
 7. The usability of CommandLineRunner and ApplicationRunner are that we can start any scheduler or log any message before application starts to run.
 
-###[The ApplicationContext](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s08.html)
+### [The ApplicationContext](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s08.html)
 
-##Writing Test case for service:
-Service class:[SimpleService]()
-Test class: [SpringBootSurgeryApplicationTests]()
+## Writing Test case for service:
+Service class:[SimpleService](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/SimpleService.java)
+Test class: [SpringBootSurgeryApplicationTests](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/test/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplicationTests.java)
 
-##What is the Output?
-1. when you run [SpringBootSurgeryApplication]() as java Application or Spring Boot Application below results are seen:
+## What is the Output?
+1. when you run [SpringBootSurgeryApplication](https://github.com/failedpeanut/spring/blob/main/spring-boot-surgery/src/main/java/com/failedpeanut/springboot/surgery/SpringBootSurgeryApplication.java) as java Application or Spring Boot Application below results are seen:
 
 Just chilling in ApplicationRunnerBean
 Arguments Passed to spring boot application:[spring.output.ansi.enabled]
