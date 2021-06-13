@@ -11,6 +11,7 @@
 ### My first Spring Boot Application
 *well, it does Nothing!*
 1. project Structure:
+
 ![spring starter project](https://github.com/failedpeanut/spring/blob/main/images_for_README/spring-boot1.png)
 
 
