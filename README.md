@@ -9,6 +9,8 @@
 5. Refer [Spring Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/) in case if you need some additional reference.
 
 ### My first Spring Boot Application
-
+*well, it does Nothing!*
+1. project Structure:
+![plot](./directory_1/directory_2/.../directory_n/plot.png)
 
 
