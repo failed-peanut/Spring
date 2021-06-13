@@ -26,3 +26,4 @@
 2. Create your own by writing a Java code or visit some [site](https://fsymbols.com/generators/carty/) to generate. 
 3. Copy the text and paste in banner.txt
 4. If banner.txt is empty No banner will be seen in console.
+5. My banner looks like [this](https://github.com/failedpeanut/spring/blob/main/spring-boot-banner/src/main/resources/banner.txt)
