@@ -7,7 +7,7 @@
 * H2 Database
 * JSP support for Web UI
 * embedded tomcat
-* Refer [pom.xml]() for complete details.
+* Refer [pom.xml](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/pom.xml) for complete details.
 
 ### Set up
 * Create Spring Boot Starter Application.
@@ -47,27 +47,27 @@
 * the `spring-boot-starter-web` includes the tomcat embedded dependency but it doesn't includes the jasper embedded dependency, so that should be the reason to declare it separately.
 
 ### Classes
-* [SpringBootWebApplication.java]()
+* [SpringBootWebApplication.java](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/java/com/failedpeanut/springboot/webapplication/SpringBootWebApplication.java)
 
 	The Main class from where application starts.
 
-* [UserController.java]()
+* [UserController.java](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/java/com/failedpeanut/springboot/webapplication/UserController.java)
 
 	The controller class which receives HTTP requests and renders views.
 
-* [UserRepository.java]()
+* [UserRepository.java](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/java/com/failedpeanut/springboot/webapplication/UserRepository.java)
 
 	A JPA Repository which queries Database.
 
-* [UserService.java]()
+* [UserService.java](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/java/com/failedpeanut/springboot/webapplication/UserService.java)
 
 	A service class which communicate with Repository to access database and send data to controller.
 
-* [UserEntity.java]()
+* [UserEntity.java](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/java/com/failedpeanut/springboot/webapplication/UserEntity.java)
 
 	A Entity object for user table. It acts as DAO and DTO.
 
-* [users.jsp]()
+* [users.jsp](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/webapp/WEB-INF/jsp/users.jsp)
 
 	The jsp view which uses JSTL tags and sends and gets data from controller.
 	
@@ -77,7 +77,7 @@
 
 ### H2 Database console (*can be accessed once application starts*)
 	*username and password check in* 
-[application.properties]()
+[application.properties](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/resources/application.properties)
 
 	http://localhost:8081/h2-console
 	
