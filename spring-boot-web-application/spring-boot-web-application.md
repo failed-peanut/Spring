@@ -14,10 +14,13 @@
 
 * Select Modules:
 
-	Spring Boot DevTools
-	Spring Data JPA
-	H2 Database
-	Spring Web
+	1. Spring Boot DevTools (helps in development process)
+	
+	2. Spring Data JPA
+	
+	3. H2 Database
+	
+	4. Spring Web
 	
 * Add below additional dependencies:
 		
