@@ -14,7 +14,7 @@
 
 * Select Modules:
 
-	1. Spring Boot DevTools (helps in development process)
+	1. Spring Boot DevTools (*helps in development process*)
 	
 	2. Spring Data JPA
 	
