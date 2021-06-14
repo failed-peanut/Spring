@@ -11,13 +11,16 @@
 
 ### Set up
 * Create Spring Boot Starter Application.
+
 * Select Modules:
-	* Spring Boot DevTools
-	* Spring Data JPA
-	* H2 Database
-	* Spring Web
+
+	Spring Boot DevTools
+	Spring Data JPA
+	H2 Database
+	Spring Web
+	
 * Add below additional dependencies:
-		```xml
+		
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
@@ -28,7 +31,8 @@
 			<artifactId>jstl</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		```
+		
+		
 
 * `spring-boot-starter-web` includes the `spring-boot-starter-tomcat`
 
@@ -67,12 +71,13 @@
 
 	The jsp view which uses JSTL tags and sends and gets data from controller.
 	
-###Starting Application
+### Starting Application
 
 	http://localhost:8081/users
 
 ### H2 Database console (*can be accessed once application starts*)
-	*username and password check in* [application.properties]()
+	*username and password check in* 
+[application.properties]()
 
 	http://localhost:8081/h2-console
 	
