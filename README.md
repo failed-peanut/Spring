@@ -28,5 +28,8 @@
 4. If banner.txt is empty No banner will be seen in console.
 5. My banner looks like [this](https://github.com/failedpeanut/spring/blob/main/spring-boot-banner/src/main/resources/banner.txt)
 
-### Lets create a Traditional Web Application with Spring Boot and Spring Web [spring-boot-web-application](https://github.com/failedpeanut/spring/tree/main/spring-boot-web-application)
+### Lets create a Traditional Web Application with Spring Boot and Spring Web 
+
+###[spring-boot-web-application](https://github.com/failedpeanut/spring/tree/main/spring-boot-web-application)
+
 1. Refer this for complete details. [README : spring-boot-web-application](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/spring-boot-web-application.md)
