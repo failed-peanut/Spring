@@ -80,7 +80,7 @@
 	http://localhost:8081/users
 
 ### H2 Database console (*can be accessed once application starts*)
-	*username and password check in* 
+	*username and password check in below file* 
 [application.properties](https://github.com/failedpeanut/spring/blob/main/spring-boot-web-application/src/main/resources/application.properties)
 
 	http://localhost:8081/h2-console
